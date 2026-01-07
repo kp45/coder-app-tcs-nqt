@@ -4,8 +4,8 @@ interface PaymentSectionProps {
   onNavigate?: (tab: string) => void;
 }
 
-const PAYMENT_PHONE = "+91 73831 60724";
-const WHATSAPP_NUMBER = "+917383160724";
+const PAYMENT_PHONE = "7383160724";
+const WHATSAPP_NUMBER = "7383160724";
 const QR_CODE_URL = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5Q1MfMbWvp34bRs-wTGFJvPL7QpbuaRDWdOW5KiRYJuWBsJX5zPkxgcT9DXTvGTAJdsU_Tg4fs1zy19M1ZvO1Fx81NgovDd4eg_Iskx8zSV6r6hhknCjIPPq-g_zi_N0pE7VbaUzaQ4IawLXHwXg1y22K0pWQ8spCwp1kkSod5fOvD4A2nCJ70yASc8E/s320/1000136275.png";
 
 export function PaymentSection({ onNavigate }: PaymentSectionProps) {
