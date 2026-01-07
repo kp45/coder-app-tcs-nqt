@@ -257,7 +257,7 @@ export function TabContent({ activeTab, onNavigate }: TabContentProps) {
                 </div>
                 <h1 className="text-3xl font-bold mb-3 leading-tight">
                   {/* You want to  to<br />Top Tech Jobs */}
-                    Dream of TCS? Start with TCS NQT
+                    Dream of TCS?<br />Start with TCS NQT
                 </h1>
                 <p className="text-sm text-white/70 mb-6 max-w-xs mx-auto">
                   One exam. Thousands of careers. TCS + 1,200 companies.
