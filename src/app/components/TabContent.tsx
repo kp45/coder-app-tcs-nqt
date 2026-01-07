@@ -256,16 +256,17 @@ export function TabContent({ activeTab, onNavigate }: TabContentProps) {
                   <span className="text-xs font-medium">TCS National Qualifier Test</span>
                 </div>
                 <h1 className="text-3xl font-bold mb-3 leading-tight">
-                  Your Gateway to<br />Top Tech Jobs
+                  {/* You want to  to<br />Top Tech Jobs */}
+                    Dream of TCS? Start with TCS NQT
                 </h1>
                 <p className="text-sm text-white/70 mb-6 max-w-xs mx-auto">
-                  One exam. Thousands of opportunities at TCS and 1,200+ companies nationwide.
+                  One exam. Thousands of careers. TCS + 1,200 companies.
                 </p>
                 <button
                   onClick={() => onNavigate?.('bundle')}
                   className="w-full py-4 bg-white text-gray-900 rounded-2xl font-semibold shadow-xl active:scale-[0.98] transition-transform"
                 >
-                  Get Prep Bundle — ₹480
+                  Get Roadmap + Materials
                 </button>
               </div>
               <div className="absolute -top-10 -right-10 w-40 h-40 bg-blue-500/20 rounded-full blur-3xl" />
@@ -298,7 +299,7 @@ export function TabContent({ activeTab, onNavigate }: TabContentProps) {
 
             {/* Exam Structure - iOS Cards */}
             <div className="space-y-3">
-              <h2 className="text-xl font-semibold text-gray-900">Exam Structure</h2>
+              <h2 className="text-xl font-semibold text-gray-900">TCS NQT Exam Structure</h2>
               
               {/* Part A */}
               <div className="bg-gradient-to-br from-blue-500 to-indigo-600 rounded-3xl p-6 text-white shadow-lg">
